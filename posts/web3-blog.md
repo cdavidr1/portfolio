@@ -1,7 +1,7 @@
 ---
 title:  'Blog'
 date: 'February 1 2023'
-excerpt: 'NFT Project + First dive into React'
+excerpt: 'Web3 blog concept'
 ---
 
 ## Web3 Blog
