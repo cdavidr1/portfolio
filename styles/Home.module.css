@@ -1,0 +1,33 @@
+.main 
+{
+  display: grid;
+  justify-content: center;
+}
+
+.window 
+{
+  position: relative;
+}
+
+/* desktop / landscape */
+@media (min-aspect-ratio: 5/4) 
+{
+  .window 
+  {
+    width: 912px;
+    height: 912px;
+    background: url("/desktop.svg") no-repeat;
+  }
+}
+
+/* mobile */
+@media (max-aspect-ratio: 5/4) 
+{
+  .window
+  {
+    width: 464px;
+    height: 870px; 
+    background: url("/mobile.svg") no-repeat;
+  }
+}
+

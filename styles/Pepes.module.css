@@ -1,0 +1,69 @@
+/* desktop / landscape */
+@media (min-aspect-ratio: 5/4) 
+{
+    .pepeContainerOne
+    {
+        position: absolute;
+        top: 235px;
+        left: 203px;
+        height: 85px;
+        width: 170px;
+        display: flex;
+        align-items: center;
+    }
+
+    .pepeContainerTwo
+    {
+        position: absolute;
+        top: 775px;
+        left: 203px;
+        height: 55px;
+        width: 170px;
+        display: flex;
+        align-items: center;
+    }
+
+    .pepeContainerThree
+    {
+        position: absolute;
+        top: 315px;
+        left: 443px;
+        height: 130px;
+        width: 260px;
+        display: flex;
+        align-items: center;
+    }
+
+    .pepeOne 
+    {
+        position: absolute;
+        width: 170px;
+        color: white;
+        text-align: center;
+    }
+
+    .pepeTwo
+    {
+        position: absolute;
+        width: 170px;
+        color: white;
+        text-align: center;
+    }
+
+    .pepeThree
+    {
+        position: absolute;
+        width: 260px;
+        color: white;
+        text-align: center;
+    }
+}
+
+/* mobile */
+@media (max-aspect-ratio: 5/4) 
+{
+  .pepe
+  {
+    display: none;
+  }
+}

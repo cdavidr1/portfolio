@@ -1,0 +1,66 @@
+/* desktop / landscape */
+
+.projects > li:hover 
+{
+    background-color: rgba(161, 161, 161, 0.642);
+}
+
+.selected 
+{
+    background-color: rgba(161, 161, 161, 0.642);
+}
+
+@media (min-aspect-ratio: 5/4) 
+{
+    .projectContainer
+    {
+        position: absolute;
+        top: 410px;
+        left: 203px;
+        height: 305px;
+        width: 170px;
+    }
+
+    .projects 
+    {
+        position: absolute;
+        color: white;
+        height: 305px;
+        width: 170px;
+        overflow: scroll;
+        margin:0;
+        padding-left: 15px;
+        list-style-type: none;
+
+        -moz-box-sizing: border-box; 
+        -webkit-box-sizing: border-box; 
+        box-sizing: border-box; 
+    }
+
+    .projects::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 11px;
+        background-color: #062829;
+    }
+
+    .projects::-webkit-scrollbar-track {
+        background-color: #062829;
+        margin-top: -27px;
+        /* margin-bottom: 30px;  */
+    }
+      
+    .projects::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: white;
+        /* box-shadow: 0 0 20px rgba(255, 255, 255, .5); */
+    }
+}
+
+/* mobile */
+@media (max-aspect-ratio: 5/4) 
+{
+  .projects
+  {
+    display: none;
+  }
+}
